@@ -1,0 +1,36 @@
+{
+  "CROSS IN TRAY": {
+    "definition": "f(x, y)=-0.0001 (|sin(x)sin(y)exp(|100-sqrt(x^2+y^2)/pi|)|+1)^0.1",
+    "dev_comment": "The Cross-in-Tray function is a multimodal benchmark with 4 global minima. It is challenging for optimization algorithms due to its steep, narrow valleys.",
+    "minima": {
+      "*": [
+        [
+          "_",
+          [1.3491, -1.3491]
+        ],
+        [
+          "_",
+          [-1.3491, 1.3491]
+        ],
+        [
+          "_",
+          [1.3491, 1.3491]
+        ],
+        [
+          "_",
+          [-1.3491, -1.3491]
+        ]
+      ]
+    },
+    "maxima": {
+      "*": []
+    },
+    "reference": "@misc{cross_in_tray_function, title={Benchmark Functions for Optimization}, year={2024}, note={Custom implementation}}",
+    "suggested bounds": {
+      "lower": -10,
+      "upper": 10
+    },
+    "summary": "Multimodal, continuous, challenging benchmark function with steep valleys and 4 global minima. It's defined only for 2 dimensions.",
+    "version": "0.1"
+  }
+}

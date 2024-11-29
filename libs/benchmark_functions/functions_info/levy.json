@@ -1,0 +1,24 @@
+{
+  "LEVY": {
+    "definition": "f(x)=\\sin^2(\\pi w_1) + \\sum_{i=1}^{n-1} (w_i - 1)^2 [1 + 10 \\sin^2(\\pi w_i + 1)] + (w_n - 1)^2 [1 + \\sin^2(2\\pi w_n)], \\text{where } w_i = 1 + \\frac{x_i - 1}{4}",
+    "dev_comment": "The Levy function has many local minima and is often used for benchmarking optimization algorithms. Global minimum is at (1, 1, ..., 1) and has a value of 0.",
+    "minima": {
+      "*": [
+        [
+          "_",
+          [1, 1]
+        ]
+      ]
+    },
+    "maxima": {
+      "*": []
+    },
+    "reference": "@article{levy1975function, title={On a Class of Test Functions for Global Optimization}, author={Levy, David}, year={1975}, publisher={Springer}}",
+    "suggested bounds": {
+      "lower": -10,
+      "upper": 10
+    },
+    "summary": "Multimodal, continuous, non-convex function with a global minimum at (1, 1, ..., 1). Suitable for testing the ability of optimization algorithms to avoid local minima and converge to the global minimum.",
+    "version": "0.1"
+  }
+}

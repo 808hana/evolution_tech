@@ -1,0 +1,24 @@
+{
+  "BOHACHEVSKY": {
+    "definition": "f(x,y) = x^2 + 2y^2 - 0.3cos(3πx) - 0.4cos(4πy) + 0.7",
+    "dev_comment": "Multimodal, continuous, and non-convex. Suitable for testing optimization algorithms on smooth, multimodal functions.",
+    "minima": {
+      "*": [
+        [
+          "_",
+          [0, 0]
+        ]
+      ]
+    },
+    "maxima": {
+      "*": []
+    },
+    "reference": "@article{bohachevsky1986, title={Techniques for optimizing applications with multimodal functions}, author={Bohachevsky et al.}, year={1986}}",
+    "suggested bounds": {
+      "lower": -50,
+      "upper": 50
+    },
+    "summary": "A 2D multimodal function with a global minimum at (0, 0) and value 0.7.",
+    "version": "0.1"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "DROP WAVE": {
+    "definition": "f(x, y) = -\\frac{1 + \\cos(12 \\sqrt{x^2 + y^2})}{0.5(x^2 + y^2) + 2}",
+    "dev_comment": "The Drop-Wave function is a multimodal, continuous, non-convex benchmark function with a global minimum at (0, 0).",
+    "minima": {
+      "*": [
+        [
+          "_",
+          [0, 0]
+        ]
+      ]
+    },
+    "maxima": {
+      "*": []
+    },
+    "reference": "https://www.sfu.ca/~ssurjano/drop.html",
+    "suggested bounds": {
+      "lower": -5.12,
+      "upper": 5.12
+    },
+    "summary": "Multimodal, non-convex benchmark function with several local minima. Suitable for testing optimization algorithms. It's defined only for 2 dimensions.",
+    "version": "0.1"
+  }
+}

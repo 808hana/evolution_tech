@@ -1,7 +1,8 @@
 import numpy as np
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
-import benchmark_functions as bf
+import libs.benchmark_functions as bf
+
 # funkce:
 # 1-10 from benchmark_functions library
 # levy not found - implemented
