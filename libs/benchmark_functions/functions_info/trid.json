@@ -1,0 +1,20 @@
+{
+  "TRID": {
+    "definition": "f(\\mathbf{x}) = \\sum_{i=1}^n (x_i - 1)^2 - \\sum_{i=2}^n x_i\\,x_{i-1}",
+    "minima": {
+      "*": [
+        [
+          "~",
+          [1.0, 2.0]
+        ]
+      ]
+    },
+    "reference": "@inproceedings{tridRef, title={Global optimization benchmark: Trid function}, author={Benchmark, Authors}, booktitle={Proc. Genetic and Evolutionary Computation}, year={2019}}",
+    "suggested bounds": {
+      "lower": -100.0,
+      "upper": 100.0
+    },
+    "summary": "Continuous, non-convex, and multimodal (especially in higher dimensions). In 2D, the global minimum is at (1,2).",
+    "version": "0.1"
+  }
+}

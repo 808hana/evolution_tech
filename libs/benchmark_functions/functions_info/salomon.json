@@ -1,0 +1,20 @@
+{
+  "SALOMON": {
+    "definition": "f(\\mathbf{x}) = 1 - \\cos(2\\pi r) + 0.1\\,r, \\quad r = \\sqrt{\\sum_{i=1}^n x_i^2}",
+    "minima": {
+      "*": [
+        [
+          "~",
+          [0.0, 0.0]
+        ]
+      ]
+    },
+    "reference": "@inproceedings{salomon1996revisiting, title={Revisiting evolution strategies for optimization}, author={Salomon, Richard}, booktitle={Proceedings of Evolutionary Computation}, year={1996}}",
+    "suggested bounds": {
+      "lower": -100.0,
+      "upper": 100.0
+    },
+    "summary": "Continuous, non-convex, and multimodal. The global minimum occurs at the origin with f(0)=0, surrounded by multiple local minima in a radial pattern.",
+    "version": "0.1"
+  }
+}

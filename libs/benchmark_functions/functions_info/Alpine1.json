@@ -1,0 +1,23 @@
+{
+  "ALPINE1": {
+    "definition": "f(x)=\\sum_{i=1}^{N}\\left|x_i\\sin(x_i)+0.1\\,x_i\\right|",
+    "minima": {
+      "*": [
+        [
+          "~",
+          [
+            0.0,
+            0.0
+          ]
+        ]
+      ]
+    },
+    "reference": "@misc{alpineFunction,title={Alpine #1 Function},howpublished={http://www.sfu.ca/~ssurjano/alpine.html},note={Surjanovic and Bingham, Virtual Library of Simulation Experiments}}",
+    "suggested bounds": {
+      "lower": -10,
+      "upper": 10
+    },
+    "summary": "Alpine #1 is a multimodal benchmark function. The global minimum is 0 at x=0 (in any dimension).",
+    "version": "0.1"
+  }
+}

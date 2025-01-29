@@ -1,0 +1,20 @@
+{
+   "WHITLEY": {
+    "definition": "f(\\mathbf{x}) = \\sum_{i=1}^n \\sum_{j=1}^n \\left[ \\frac{(x_i - 1)^2 (1 + \\sin(3 x_j))^2 + (x_j - 1)^2 (1 + \\sin(3 x_i))^2}{4000} + 1 - \\cos\\bigl((x_i-1)(x_j-1)\\bigr) \\right]",
+    "minima": {
+      "*": [
+        [
+          "~",
+          [1.0, 1.0]
+        ]
+      ]
+    },
+    "reference": "@article{whitleyRef, title={A hyper-rugged multi-modal benchmark for evolutionary strategies}, author={Whitley, Darrell}, journal={Evolutionary Computation}, year={2021}}",
+    "suggested bounds": {
+      "lower": -10.0,
+      "upper": 10.0
+    },
+    "summary": "Continuous, non-convex, and very rugged. Highly multimodal with many local minima. Global minimum at (1,1,...,1) with value 0.",
+    "version": "0.1"
+  }
+}
